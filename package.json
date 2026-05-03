@@ -24,7 +24,7 @@
       "**/?(*.)+(spec|test).js?(x)"
     ],
     "moduleNameMapper": {
-      "\\.(scss)$": "<rootDir>/__tests__/styleMock.js",
+      "\\.(css)$": "<rootDir>/__tests__/styleMock.js",
       "^(components/.+)$": "<rootDir>/src/$1/"
     },
     "moduleFileExtensions": [
