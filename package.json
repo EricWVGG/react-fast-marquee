@@ -9,7 +9,8 @@
     "lint": "eslint \"src/**/*.{js,tsx}\" --fix --quiet",
     "pretest": "npm run lint",
     "test": "node ./__tests__/tests.js",
-    "no-watch-test": "node ./__tests__/tests.js --no-watch"
+    "no-watch-test": "node ./__tests__/tests.js --no-watch",
+    "prepare": "yarn run build"
   },
   "jest": {
     "globals": {

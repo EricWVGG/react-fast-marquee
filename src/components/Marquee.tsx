@@ -8,9 +8,7 @@ import React, {
   ReactNode,
   CSSProperties,
   FC,
-  forwardRef,
   Children,
-  MutableRefObject,
   RefAttributes,
 } from "react";
 import "./Marquee.scss";
